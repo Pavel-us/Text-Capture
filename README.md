@@ -1,4 +1,4 @@
- ------------------------- Text Capture -----------------------------
+ ------------------------- Text Capture ----------------------------- #
  script for text and QR code recognition.
  wrote it on my knees for my own needs, for Linux Mint 22 Cinnamon
  installation:
