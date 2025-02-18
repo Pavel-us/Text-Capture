@@ -1,4 +1,4 @@
- ------------------------- Text Capture ----------------------------- #
+
  script for text and QR code recognition.
  wrote it on my knees for my own needs, for Linux Mint 22 Cinnamon
  installation:
@@ -32,7 +32,6 @@
  press Alt + F2, type r and press Enter
  the program will appear in the menu
 
- -------------------------  Text Capture  -----------------------------
  скрипт для распознавание текста и QR-кодов.
  писал на коленки для собственных нужд, для linux mint 22 Cinnamon
  установка:
