@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Text Capture
+Comment=Захват текста с экрана и копирование в буфер обмена
+Exec=/home/user/text_capture/text_capture.sh
+Icon=/home/user/text_capture/text_capture.png
+Terminal=false
+Categories=Utility;Application;
+Name[ru_RU]=text_capture.desktop
