@@ -36,7 +36,3 @@ sudo apt install tesseract-ocr-rus tesseract-ocr-eng
 ```bash
 LANGUAGES="rus+eng"
 ```
-#
- After installation, restart Cinnamon
- press **Alt + F2**, type **r** and press **Enter**
- the program will appear in the menu
