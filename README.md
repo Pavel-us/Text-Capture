@@ -1,6 +1,5 @@
 # Text-Capture
- **script for text and QR code recognition.
- wrote it on my knees for my own needs, for Linux Mint 22 Cinnamon**
+ **script for text and QR code recognition.**
  ### installation:
  drop the `text_capture.desktop` file into the `/local/share/applications/` directory
  in the `text_capture.desktop` file specify the paths for text_capture.sh and the icon
@@ -41,46 +40,3 @@ LANGUAGES="rus+eng"
  After installation, restart Cinnamon
  press **Alt + F2**, type **r** and press **Enter**
  the program will appear in the menu
-# Text-Capture
- **скрипт для распознавание текста и QR-кодов.
- писал на коленки для собственных нужд, для linux mint 22 Cinnamon**
- ### установка:
- файл `text_capture.desktop` закинуть в директорию `/local/share/applications/`
- в файде `text_capture.desktop` указать пути для text_capture.sh и иконки
- Exec=`/home/user/text_capture/text_capture.sh`
- Icon=`/home/user/text_capture/text_capture.png`
- сделайте файл исполняемым:
-```bash
-chmod +x ~/.local/share/applications/text_capture.desktop
-```
- так же файл text_capture.sh сделайте исполняемым:
-```bash
-chmod +x text_capture.sh
-```
-# 
- ### добавте пакеты.
- Необходимые пакеты:
-+ tesseract-ocr — для распознавания текста.
-+ scrot — для захвата скриншотов.
-+ xclip — для работы с буфером обмена.
-+ notify-osd — для отображения уведомлений.
-+ zbar-tools — для распознавания QR-кодов.
- команды для установки:
- ```bash
-sudo apt install tesseract-ocr scrot xclip notify-osd zbar-tools
-```
-# 
- ### добавить поддержку разных языков в Tesseract,
- установив соответствующие языковые пакеты, например:
- ```bash
-sudo apt install tesseract-ocr-rus tesseract-ocr-eng
-```
-# 
- В функции для захвата текста укажите языки например:
-```bash
-LANGUAGES="rus+eng"
-```
-# 
- После установки перезагрузите Cinnamon
- нажмите **Alt + F2**, введите **r** и нажмите **Enter**
- программа отобразиться в меню
